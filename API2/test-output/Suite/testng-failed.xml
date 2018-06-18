@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="API_VootKids_Sprint1"/>
+      <package name="API_VootKids_Sprint2"/>
+      <package name="API_VootKids_Sprint3"/>
+    </packages>
+    <classes>
+      <class name="API_VootKids_Sprint1.buddy"/>
+      <class name="API_VootKids_Sprint1.Config"/>
+      <class name="API_VootKids_Sprint1.CreatePin"/>
+      <class name="API_VootKids_Sprint1.CreateProfile"/>
+      <class name="API_VootKids_Sprint1.ForgotPassword"/>
+      <class name="API_VootKids_Sprint1.ForgotPin"/>
+      <class name="API_VootKids_Sprint1.GenericMethod_VK"/>
+      <class name="API_VootKids_Sprint1.GetProfile"/>
+      <class name="API_VootKids_Sprint1.Home"/>
+      <class name="API_VootKids_Sprint1.Login"/>
+      <class name="API_VootKids_Sprint1.profile"/>
+      <class name="API_VootKids_Sprint1.request"/>
+      <class name="API_VootKids_Sprint1.ResetPassword"/>
+      <class name="API_VootKids_Sprint1.ResetPin"/>
+      <class name="API_VootKids_Sprint1.SignUp"/>
+      <class name="API_VootKids_Sprint1.SocialLogin"/>
+      <class name="API_VootKids_Sprint1.SwitchProfile"/>
+      <class name="API_VootKids_Sprint1.Tabs"/>
+      <class name="API_VootKids_Sprint1.UpdateProfile"/>
+      <class name="API_VootKids_Sprint2.Channel"/>
+      <class name="API_VootKids_Sprint2.GetTrayMediaList"/>
+      <class name="API_VootKids_Sprint2.kidscharacters"/>
+      <class name="API_VootKids_Sprint2.Watch"/>
+      <class name="API_VootKids_Sprint2.WatchHistory"/>
+      <class name="API_VootKids_Sprint3.AllEpisode"/>
+      <class name="API_VootKids_Sprint3.Avatars"/>
+      <class name="API_VootKids_Sprint3.Ebook"/>
+      <class name="API_VootKids_Sprint3.FavListItems"/>
+      <class name="API_VootKids_Sprint3.FavListPage"/>
+      <class name="API_VootKids_Sprint3.FavouriteMultiset"/>
+      <class name="API_VootKids_Sprint3.IsFavourite"/>
+      <class name="API_VootKids_Sprint3.Playback"/>
+      <class name="API_VootKids_Sprint3.ProgramInfo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="API_VootKids_Sprint1.Home">
+        <methods>
+          <include name="home"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint1.Home -->
+      <class name="API_VootKids_Sprint3.AllEpisode">
+        <methods>
+          <include name="AllEpisodes_Page"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint3.AllEpisode -->
+      <class name="API_VootKids_Sprint1.CreateProfile">
+        <methods>
+          <include name="Create_Profiles"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint1.CreateProfile -->
+      <class name="API_VootKids_Sprint3.FavListItems">
+        <methods>
+          <include name="favListItems"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint3.FavListItems -->
+      <class name="API_VootKids_Sprint2.WatchHistory">
+        <methods>
+          <include name="watch_history"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint2.WatchHistory -->
+      <class name="API_VootKids_Sprint3.Playback">
+        <methods>
+          <include name="playback"/>
+        </methods>
+      </class> <!-- API_VootKids_Sprint3.Playback -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

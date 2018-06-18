@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36372" started-at="2018-06-18T09:42:11Z" finished-at="2018-06-18T09:42:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36372" started-at="2018-06-18T09:42:11Z" finished-at="2018-06-18T09:42:47Z">
+      <class name="API_VootKids_Sprint2.Channel">
+        <test-method status="PASS" signature="Channels_kidsPage()[pri:0, instance:API_VootKids_Sprint2.Channel@4e1d422d]" name="Channels_kidsPage" duration-ms="36359" started-at="2018-06-18T15:12:11Z" finished-at="2018-06-18T15:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Channels_kidsPage -->
+      </class> <!-- API_VootKids_Sprint2.Channel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
